@@ -2,7 +2,9 @@
  * Created by rocky on 2/14/18.
  */
 import React, { Component } from 'react';
+
 import { Container, Header, View, Button, Icon, Fab } from 'native-base';
+import { Linking} from 'react-native';
 
 export default class FABExample extends Component {
   constructor() {
@@ -22,13 +24,13 @@ export default class FABExample extends Component {
             position="topRight"
             onPress={() => this.setState({ active: !this.state.active })}>
             <Icon name="share" />
-            <Button style={{ backgroundColor: '#34A34F' }}>
-              <Icon name="logo-whatsapp" />
+            <Button style={{ backgroundColor: '#34A34F' }} onPress={() => Linking.openURL('https://www.radiologos.al')}>
+              <Icon name="logo-chrome" />
             </Button>
-            <Button style={{ backgroundColor: '#3B5998' }}>
+            <Button style={{ backgroundColor: '#3B5998' }} onPress={ ()=> Linking.openURL('https://facebook.com/RadioLogos/') }>
               <Icon name="logo-facebook" />
             </Button>
-            <Button disabled style={{ backgroundColor: '#DD5144' }}>
+            <Button style={{ backgroundColor: '#DD5144' }} onPress={()=> Linking.openURL('mailto:info@radiologos.al')}>
               <Icon name="mail" />
             </Button>
           </Fab>

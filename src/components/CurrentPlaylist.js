@@ -2,18 +2,15 @@ import React, {Component} from "react";
 import {TouchableOpacity, View} from "react-native";
 import {
     Body,
-    Card,
-    CardItem,
     Container,
     Content,
+    Card,
     H2,
-    Header,
     Icon,
     List,
     ListItem,
     Right,
     Text,
-    Title
 } from "native-base";
 const net = require('react-native-tcp');
 
@@ -53,19 +50,20 @@ export default class CurrentPlaylist extends Component {
     render() {
         const {songList} = this.state;
         return (
-            <View style={{flex: 2}}>
-                <Container>
+            <Card transparent style={{flex: 2}}>
+                {/*<Container>*/}
                     <Content>
                         <ListItem>
-                            <Body>
+                            <Body >
                             <View style={{flex: 1, justifyContent: "space-between", flexDirection: "row"}}>
-                                <H2 style={{fontWeight: "bold", color: '#d1fffc'}}>Current Requested Songs</H2>
+                                <H2 style={{fontWeight: "bold", color: '#00c3ff'}}>Këngët e kërkuara aktuale</H2>
                                 <TouchableOpacity onPress={() => this.requestList()}>
                                     <Icon name='refresh' style={{color: "#636363"}}/>
                                 </TouchableOpacity>
                             </View>
                             </Body>
                         </ListItem>
+
                         <List>
                             {songList.length > 2 ? songList.map((song, idx) => {
 
@@ -74,12 +72,12 @@ export default class CurrentPlaylist extends Component {
 
                                 if (singer && name && time) {
                                     return (<ListItem key={idx}>
-                                        <Body>
-                                        <Text>{name}</Text>
-                                        <Text note>{singer}</Text>
+                                        <Body >
+                                        <Text style={{color:"#cef0f5"}}>{name}</Text>
+                                        <Text style={{color:"#f5f5f5"}} note>{singer}</Text>
                                         </Body>
                                         <Right>
-                                            <Text note>{time}</Text>
+                                            <Text style={{color:"#f5e1e8"}} note>{time}</Text>
                                         </Right>
                                     </ListItem>)
                                 }
@@ -87,16 +85,16 @@ export default class CurrentPlaylist extends Component {
                             }) : (
                                 <ListItem>
                                     <Body>
-                                    <Text>No Results</Text>
+                                    <Text>Nuk ka rezultate</Text>
                                     </Body>
                                 </ListItem>)}
 
                         </List>
                     </Content>
 
-                </Container>
+                {/*</Container>*/}
 
-            </View>
+            </Card>
 
         );
     }

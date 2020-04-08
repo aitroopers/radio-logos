@@ -1,5 +1,3 @@
-rootProject.name = 'RadioLogo'
-include ':react-native-audio-streaming'
-project(':react-native-audio-streaming').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-audio-streaming/android')
-
+rootProject.name = 'radiologos'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
