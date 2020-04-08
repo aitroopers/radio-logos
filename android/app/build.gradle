@@ -152,9 +152,9 @@ android {
         }
         release {
         storeFile file('radiologoskey.keystore')
-        storePassword '825927hbk'
+        storePassword ''
         keyAlias 'radiologos_key_alias'
-        keyPassword '825927hbk'
+        keyPassword ''
    }
     }
     buildTypes {
