@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.radiologos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:4:5-66
+11-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:5:5-76
+12-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-68
+13-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-65
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/> -->
+14-->[com.google.android.exoplayer:exoplayer-core:2.10.1] /home/rocky/.gradle/caches/transforms-2/files-2.1/fb85f628f18cabc52fb7b28cacf4078f/jetified-exoplayer-core-2.10.1/AndroidManifest.xml:24:5-79
+14-->[com.google.android.exoplayer:exoplayer-core:2.10.1] /home/rocky/.gradle/caches/transforms-2/files-2.1/fb85f628f18cabc52fb7b28cacf4078f/jetified-exoplayer-core-2.10.1/AndroidManifest.xml:24:22-76
+15    <application
+15-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:8:5-27:19
+16        android:name="com.radiologos.MainApplication"
+16-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:9:13-44
+17        android:allowBackup="false"
+17-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:13:13-40
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.2.0-beta01] /home/rocky/.gradle/caches/transforms-2/files-2.1/70ebe5c180c2afa02c7b3a6ed0986f52/core-1.2.0-beta01/AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:11:13-47
+20        android:label="@string/app_name"
+20-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:10:13-45
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:12:13-58
+22        android:theme="@style/AppTheme" >
+22-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:14:13-44
+23        <activity
+23-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:15:9-25:20
+24            android:name="com.radiologos.MainActivity"
+24-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:16:17-45
+25            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+25-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:18:17-94
+26            android:label="@string/app_name"
+26-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:17:17-49
+27            android:launchMode="singleTask"
+27-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:19:17-48
+28            android:windowSoftInputMode="adjustResize" >
+28-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:20:17-59
+29            <intent-filter>
+29-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:21:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:22:17-68
+30-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:22:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:23:17-76
+32-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+35-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:26:9-85
+35-->/home/rocky/Documents/GitHub/radio-logos/android/app/src/main/AndroidManifest.xml:26:19-83
+36        <!-- The main service, handles playback, playlists and media buttons -->
+37        <service
+37-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-24:19
+38            android:name="com.guichaguri.trackplayer.service.MusicService"
+38-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-75
+39            android:enabled="true"
+39-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-35
+40            android:exported="true" >
+40-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-36
+41            <intent-filter>
+41-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-23:29
+42                <action android:name="android.intent.action.MEDIA_BUTTON" />
+42-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:17-77
+42-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:25-74
+43            </intent-filter>
+44        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+45        <receiver android:name="androidx.media.session.MediaButtonReceiver" >
+45-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-31:20
+45-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:19-76
+46            <intent-filter>
+46-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-23:29
+47                <action android:name="android.intent.action.MEDIA_BUTTON" />
+47-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:17-77
+47-->[:react-native-track-player] /home/rocky/Documents/GitHub/radio-logos/node_modules/react-native-track-player/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:25-74
+48            </intent-filter>
+49        </receiver>
+50    </application>
+51
+52</manifest>

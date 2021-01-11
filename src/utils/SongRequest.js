@@ -8,7 +8,8 @@ function searchSong(searchText, dataHandle) {
     const client = net.createConnection({port: 443, host: '79.106.138.138'}, () => {
         //'connect' listener
         console.log('connected to server!');
-        client.write(`Search=* ${searchText} *\r\n`);
+        console.log(`Search=*${searchText}*\r\n`);
+        client.write(`Search=*${searchText}*\r\n`);
     });
     client.on('data', (data) => {
         dataHandle(data);

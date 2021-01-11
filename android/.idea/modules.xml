@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/radiologos.iml" filepath="$PROJECT_DIR$/.idea/modules/radiologos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/radiologos.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/radiologos.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-898799191/radiologos.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-898799191/radiologos.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1714101990/radiologos.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1714101990/radiologos.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1362689201/radiologos.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1362689201/radiologos.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-386222389/radiologos.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-386222389/radiologos.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/230665434/radiologos.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/230665434/radiologos.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/246052210/radiologos.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/246052210/radiologos.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-398955700/radiologos.react-native-tcp.iml" filepath="$PROJECT_DIR$/.idea/modules/-398955700/radiologos.react-native-tcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1267430056/radiologos.react-native-track-player.iml" filepath="$PROJECT_DIR$/.idea/modules/-1267430056/radiologos.react-native-track-player.iml" />
+    </modules>
+  </component>
+</project>

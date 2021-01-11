@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/rocky/PycharmProjects/radiologos/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
+            "outputFile": "/home/rocky/Documents/GitHub/radio-logos/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "/home/rocky/.gradle/caches/transforms-2/files-2.1/70ebe5c180c2afa02c7b3a6ed0986f52/core-1.2.0-beta01/res/values-gu/values-gu.xml",

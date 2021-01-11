@@ -151,10 +151,10 @@ android {
             keyPassword 'android'
         }
         release {
-        storeFile file('radiologoskey.keystore')
-        storePassword ''
+        storeFile file('upload_cert.der')
+        storePassword '825927hbk'
         keyAlias 'radiologos_key_alias'
-        keyPassword ''
+        keyPassword '825927hbk'
    }
     }
     buildTypes {
