@@ -1,4 +1,0 @@
-#Sun Jan 10 16:55:52 CST 2021
-base.0=/home/rocky/Documents/GitHub/radio-logos/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
